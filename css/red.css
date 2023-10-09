@@ -1,14 +1,4 @@
-﻿/*!
-* Created by Kroplet (https://www.kroplet.com) 
-* The easiest way to create Bootstrap 4 themes. 
-*/
-
-/*!
-* Bootstrap v4.0.0-beta.2 (https://getbootstrap.com) 
-* Copyright 2011-2017 The Bootstrap Authors 
-* Copyright 2011-2017 Twitter, Inc. 
-* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
-:root {
+﻿:root {
   --blue: #0000ff;
   --indigo: #3d5afe;
   --purple: #aa00ff;
@@ -52,6 +42,13 @@ html {
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent;
+}
+
+#map {
+  height: 400px;
+  border-radius: 5px;
+  filter: grayscale(1);
+  margin: 4em 0;
 }
 
 @-ms-viewport {

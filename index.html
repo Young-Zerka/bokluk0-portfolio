@@ -63,6 +63,7 @@
     <meta property="og:image" content="favicon.png" />
     <link rel="icon" href="favicon.png" />
     <!--Inter UI font-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
     <link rel="stylesheet" href="https://rsms.me/inter/inter-ui.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
@@ -193,7 +194,7 @@
             <!--help section-->
             <section class=" mt-7" id="contact">
                 <div class="container">
-
+                    
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2 align-items-center"">
                             <h2 class=" dot-circle">Need help?</h2>
@@ -260,6 +261,9 @@
                             </form>
                         </div>
                     </div>
+
+                    <div id="map"></div>
+                    
                 </div>
             </section>
 
@@ -347,6 +351,7 @@
             </div>
 
             <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
             <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -358,6 +363,7 @@
             <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
                 data-cf-beacon='{"token": "85a3cf7da6994f24a7a956f19574fd38"}'></script>
             <!-- End Cloudflare Web Analytics -->
+
 
 </body>
 
